@@ -3,12 +3,13 @@ from PIL import Image, ImageDraw, ImageFont
 import datetime
 import os
 
+
 # ==========================================
 # 1. AYARLAR (GÜVENLİ ÇEKİM - GITHUB ACTIONS İÇİN)
 # ==========================================
-API_KEY = os.environ.get("51767f38d1182d6a76c40b8f5e30b896")
-TELEGRAM_TOKEN = os.environ.get("8675874600:AAEnfPFrb3s46iO-pFxFGNYa3hXmfEldrsg")
-TELEGRAM_CHAT_ID = os.environ.get("5956562475")
+API_KEY = os.environ.get("API_KEY")
+TELEGRAM_TOKEN = os.environ.get("TELEGRAM_TOKEN")
+TELEGRAM_CHAT_ID = os.environ.get("TELEGRAM_CHAT_ID")
 KLASOR_IKON = "ikonlar"
 
 if not API_KEY or not TELEGRAM_TOKEN or not TELEGRAM_CHAT_ID:
